@@ -1,0 +1,26 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="balaji sankar,balajisankar,balaji shankar,balaji sankar tech,balajisankar.tech,balaji shankar,ibalajisankar,balaji.sankar,medium,balaji sankar medium" />
+  {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+  {{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
+  {{ .Hugo.Generator }}
+  <title>{{ .Title }}{{ if not .IsHome }} &middot; {{ .Site.Title }}{{ end }}</title>
+  {{ "<!-- Stylesheets -->" | safeHTML }}
+  {{ range .Site.Params.custom_css }}
+  
+    <link rel="stylesheet" href="{{ . | absURL }}">
+  {{ end }}
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+  {{ with .Site.Params.favicon }}
+    <link rel="shortcut icon" type="image/x-icon" href="{{ . | absURL }}">
+    <link rel="icon" type="image/x-icon" href="{{ . | absURL }}">
+  {{ end }}
+    
+
+</head>

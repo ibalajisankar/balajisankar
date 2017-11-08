@@ -1,0 +1,57 @@
+
+<title>Balaji Sankar</title>
+<head>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="../js/jquery-v3.3.1/jquery.min.js"></script>
+    
+</head>
+
+<body style="background-color:#ccc; margin: 0px;height: 100%; font-family: sans-serif;font-size: 10px">
+    <nav onmouseenter="pointerEvent()" onmouseleave="pointerDisable()" class="position-absolute text-medium  position-top text-white width-100 z-index-7">
+        <div class="justify-content-flex-end" style="display: flex;">
+            <div class="display-inline-block margin-three"><a class="text-white" href="/javascript">Javascript</a></div>
+            <div class="display-inline-block margin-three"><a class="text-white" href="/animation">Animation</a></div>
+            <div class="display-inline-block margin-three"><a class="text-white" href="/tutorials">Tutorials</a></div>
+            <div class="display-inline-block margin-three"><a class="text-white" href="/games/1to50/">Games</a></div>
+            <div class="display-inline-block margin-three"><a class="text-white" id="contactus" >Contact</a></div>
+            </div>
+        </nav>
+    <!-- <div id="medium-logo"  class="position-absolute display-inline-block position-right margin-five z-index-7"> <p><a target="_blank" href="https://medium.com/@balaji.sankar"><img class="width-25" src="../img/Medium.svg"></a></p></div> -->
+    <div class="overflow-hidden position-relative bg-black" style="height:100vh">
+        <div class="no-padding col-md-12 col-sm-12 col-xs-12  display-table text-center xs-no-padding" style="height:100vh">
+            <div class="position-absolute no-padding col-sm-12 col-xs-12  col-md-12" style="height:100vh">
+                <div id="particle" style="height:100vh">
+                </div>
+            </div>
+            <div class="display-table-cell-vertical-middle padding-three sm-padding-seven xs-padding-twenty no-padding-tb">
+                <h2 id="title-line1" class="title-line alt-font text-white font-weight-600 title-extra-large-3 md-title-extra-large-3 xs-title-extra-large-4 margin-two-bottom tz-text"><a href="https://dev-encrypt.kadima.io" style="    text-decoration: none;color:inherit;"></a></h2>
+
+            </div>
+
+        </div>
+    </div>
+        <div id="animation" class="position-absolute z-index-6 position-top " style="width:100%;height:100%; "></div>
+    <script >
+        function pointerEvent(){
+            document.getElementById('animation').classList.add("pointer-event-none")
+        }
+        function pointerDisable(){
+            document.getElementById('animation').classList.remove ( "pointer-event-none");
+        }
+    </script>
+    <style>
+        a:hover{
+            text-decoration: none;
+        }
+        </style>
+    <script src="../js/textparticle.js" type="text/javascript"></script>
+    <script type="text/javascript" src="../js/particles.js"></script>
+    <script type="text/javascript" src="../js/api.js"></script>
+    <script type="text/javascript" src="../js/particleapp.js"></script>
+    <!-- stats.js -->
+    <script type="text/javascript" src="../js/particlestats.js"></script>
+
+</body>
+

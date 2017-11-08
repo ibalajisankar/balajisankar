@@ -1,0 +1,4 @@
+<div class="logo width-100 display-flex justify-content-center align-items-center padding-three-top">
+            {{ $url := printf "/img/%s" .Site.Params.home.logo }}
+            <img src="{{ $url |absURL }}">
+        </div>

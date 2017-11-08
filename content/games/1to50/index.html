@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Fast Eye test..Just touch the numbers 1 to 50 in order. ">
+    <meta name="keywords" content="1to50, games , eye test">
+    <meta property="og:title" content="Balaji Sankar - Tap consecutive number" />
+    <meta property="og:type" content="Website" />
+    <meta property="og:description" content="1to50 :Tap on the consecutive numbers as fast as possible...Visit http://balajisankar.tech/games/1to50">    
+    <meta property="og:url" content="http://balajisankar.tech/games/1to50" />
+    <meta property="og:image" content=""/>
+    <title>Balaji Sankar - 1to50</title>
+    <script src="/js/jquery-v3.3.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-v3.3.1/jquery.min.js"><\/script>')</script>    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109286238-1"></script>
+    <script>
+      
+      </script>
+    <script src="/js/1to50.js"></script>
+    <!-- <script src="/js/suffle.js"></script>     -->
+    <link rel="stylesheet" href="/css/1to50.css">    
+   
+   
+    <script>
+        var level = 1;
+        var resultTime;
+    </script>
+</head>
+<body>
+    <div id="fb-root"></div>
+<div class="wrap">
+    <div class="top-header">
+        <div>
+            <div class="navbar" id="mainColor">
+                
+                <div class="score">
+                        <h5>1 to 50</h5>
+                </div>
+                    <!-- <span id="score"></span> -->
+                <div class="timereset">
+                <div id="time"></div>
+                <a class="resetBtn"><img width="25" src="/img/games/reset.svg"></a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+        <div class="grid-structure">
+        <div class="grid x5" id="board">
+            <div style="opacity: 1;"><span class="box" style="z-index:75"></span>25</div>
+            <div style="opacity: 1;"><span class="box" style="z-index:98"></span>2</div>
+            <div style="opacity: 1;"><span class="box" style="z-index:76"></span>24</div>
+            <div style="opacity: 1;"><span class="box" style="z-index:68"></span>32</div>
+            <div style="opacity: 1;"><span class="box" style="z-index:93"></span>7</div>
+            <div style="opacity: 1;"><span class="box" style="z-index:78"></span>22</div>
+            <div style="opacity: 1;"><span class="box" style="z-index:79"></span>21</div>
+            <div style="opacity: 1;"><span class="box" style="z-index:83"></span>17</div>
+            <div style="opacity: 1;"><span class="box" style="z-index:85"></span>15</div>
+            <div style="opacity: 1;"><span class="box" style="z-index:95"></span>5</div>
+            <div style="opacity: 1;"><span class="box" style="z-index:77"></span>23</div>
+            <div style="opacity: 1;"><span class="box" style="z-index:97"></span>3</div>
+            <div style="opacity: 1;"><span class="box" style="z-index:80"></span>20</div>
+            <div style="opacity: 1;"><span class="box" style="z-index:89"></span>11</div>
+            <div style="opacity: 1;"><span class="box" style="z-index:84"></span>16</div>
+            <div style="opacity: 1;"><span class="box" style="z-index:81"></span>19</div>
+            <div style="opacity: 1;"><span class="box" style="z-index:94"></span>6</div>
+            <div style="opacity: 1;"><span class="box" style="z-index:82"></span>18</div>
+            <div style="opacity: 1;"><span class="box" style="z-index:86"></span>14</div>
+            <div style="opacity: 1;"><span class="box" style="z-index:96"></span>4</div>
+            <div style="opacity: 1;"><span class="box" style="z-index:91"></span>9</div>
+            <div style="opacity: 1;"><span class="box" style="z-index:90"></span>10</div>
+            <div style="opacity: 1;"><span class="box" style="z-index:88"></span>12</div>
+            <div style="opacity: 1;"><span class="box" style="z-index:92"></span>8</div>
+            <div style="opacity: 1;"><span class="box" style="z-index:87"></span>13</div>
+        </div>
+        <div class="description">
+            <p>
+            Tap on the consecutive numbers as fast as possible</p>
+            <a id="hint"><div>Hint</div></a>
+            
+            </div>
+            <div class="social-icon" >
+                    <a  id="whatsapp"><img width="30px" src="/img/games/whatsapp.svg"></a>
+    <div class="fb-share-button" data-href="http://balajisankar.tech/games/1to50/" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Share</a></div>    
+    
+                </div>
+            
+        </div>
+    </div>
+    <footer>
+            Made with  <i class="fa fa-heart" style="margin:0 3px;color:red"></i> by <a  onclick="handleOutboundLinkClicksfooter(event)" target="_blank">Balaji Sankar</a>
+        </footer>
+</body>
+</html>

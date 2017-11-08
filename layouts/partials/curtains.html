@@ -1,0 +1,18 @@
+    {{ $background:= $.Scratch.Get "background" }}
+
+<div id="landing-background">
+        {{ range $background }}
+        <div class="one-fourth-screen position-absolute position-top position-right">
+            {{ $url := printf "/img/%s" .img }}
+            <img class="one-fourth-screen" src="{{ $url | absURL }}">
+            
+        </div>
+         {{ end }}
+            {{ range $background }}
+           
+        <div id="flip" class="one-fourth-screen position-absolute position-top position-left">
+            {{ $url := printf "/img/%s" .img }}
+            <img class="one-fourth-screen" src="{{ $url | absURL }}">
+        </div>
+             {{ end }}
+        </div>

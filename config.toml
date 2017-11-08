@@ -1,0 +1,68 @@
+#baseURL = "http://dev.kadima.events/"
+languageCode = "en-us"
+title = "Balaji Sankar"
+[params]
+  # You can use Markdown syntax for urls [text](//url.to/source) or
+  # most longer texts.
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+  # To provide some metadata for search engines feel free to add a few
+  # information about you and your website.
+  name = "Balaji Sankar"
+  description = "I am balaji sankar,i have just posted my works related to web development"
+
+  # Link custom assets relative to /static
+  custom_css = ["css/bootstrapV4/bootstrap.min.css","css/base.css","css/responsive.css","css/style.css","css/like.css"]
+  custom_js  = ["js/tether/tether.js","js/bootstrapV4/bootstrap.js","js/api.js","js/ellipses.js","js/star.js"]
+
+  #"js/particles.js","js/particleapp.js","js/particlestats.js"
+
+
+  # 404 error customization
+  [params.error404]
+    heading = "Page couldn't be found"
+    text = "Please visit [this page](/)"
+[params.home]
+logo="KadimaLogo.svg"
+[ params.latest]
+title = "Some of my latest work"
+#Fresh Topics
+[[ params.latest.topic ]]
+    title = "How to create a NPM package 💭"
+    description = "What is npm? NPM(Node Package Manager) makes it easy for JavaScript developers to share the code that they’ve created to solve particular problems, and for other developers to reuse that code in their own applications.Installing npm Initially check does node is installed in your computer,"
+    img = "npm.png"
+    buttonlink = "https://medium.com/@balaji.sankar/how-to-create-a-npm-package-762ae2474890"
+[[ params.latest.topic ]]
+    title = "generate-confetti"
+    description = "Confetti is the small object or streamers of colored objects that are scattered around the website."
+    img = "js.png"
+    buttonlink = "https://www.npmjs.com/package/generate-confetti"
+[[ params.latest.topic ]]
+    title = "ellipses"
+    description = """Ellipses add a string in the word boundary.
+Generally, ellipsis was added at the end of the words in the element instead it can be added at the start of the element"""
+    img = "npm.png"
+    buttonlink = "https://www.npmjs.com/package/ellipses"
+[[ params.latest.topic ]]
+    title = "Prevent image download in websites"
+    description="""In this article we are going to see how to detect image download and a simplest way to prevent image download.
+Whenever a content uploaded in web it can be viewed by all.All can copy the contents and use it.It may be helpful in some scenario.But consider profile picture in social networking site,there is no need for downloading images. But now it can be downloaded easy. Lets see how an images are displayed so far and which can be used to hide image URL."""
+    img = "preventimagedownload.png"
+    buttonlink = "https://medium.com/@balaji.sankar/prevent-image-download-in-websites-b350d7dd8cdb"
+[[ params.latest.topic ]]
+    title = "Resize event issue in mobile phones"
+    description = """In this article, we discuss the resize issue in mobile devices.
+The resize event is fired when the document view has been resized.But in the case of mobile devices whenever the scroll action is performed resize function will be triggered.
+"""
+    img = "JavaScript.png"
+    buttonlink = "https://medium.com/@balaji.sankar/resize-event-issue-in-mobile-phones-874a8fc8c036"
+[[ params.latest.topic ]]
+    title = "The Simplest Way to Share Messages on Social Network from Web App"
+    description = """In this modern era, we are in need of sharing a link to our friend in social networking for inviting our friends to use the particular app or site.
+In this article, we are going to understand what are ways and how a link or message can be shared with your friends from web app in social networks.
+Here a question arises why and where I need to share a link from the web app. For example, Consider a scenario when a user has Medium article and he needs to share the article with his friends what we do generally just copy the URL of that post and share with our friends.But If you want to share with a friend on WhatsApp we open WhatsApp application and then share….Instead of this huge flow, we can just use share button which allows sharing the link in social networks."""
+    img = "simpleapp.png"
+    buttonlink = "https://medium.com/@balaji.sankar/the-simplest-way-to-share-messages-on-social-network-from-web-app-e349f5701e7f"
+
