@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/animation/</loc>
+  </url>
+  
+  <url>
+    <loc>/games/1to50/</loc>
+  </url>
+  
+  <url>
+    <loc>/javascript/</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorials/</loc>
+  </url>
+  
+  <url>
+    <loc>/animation/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/games/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/javascript/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tutorials/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

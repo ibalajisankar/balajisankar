@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Games on Balaji Sankar</title>
+    <link>/games/</link>
+    <description>Recent content in Games on Balaji Sankar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/games/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/games/1to50/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/games/1to50/</guid>
+      <description>Balaji Sankar - 1to50  window.jQuery || document.write(&#39;&#39;)      --  var level = 1; var resultTime;      1 to 50   --       25 2 24 32 7 22 21 17 15 5 23 3 20 11 16 19 6 18 14 4 9 10 12 8 13   Tap on the consecutive numbers as fast as possible</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,203 @@
+ body{
+        margin: 0;
+    }
+   footer{
+       background: #202020;
+       color: white;
+       position: absolute;
+       bottom: 0;
+       padding: 10px;
+       text-align: center;  
+       width:100%;
+   }
+   footer a{
+       color: white;
+       text-decoration: none;
+      cursor: pointer;
+   }
+    .social-icon{
+        display: none;
+        /* display: flex; */
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .fb-share-button,#whatsapp{
+        margin-left: 10px;
+    }
+    .fb_iframe_widget span,.fb_iframe_widget iframe{
+        width: 85px !important;
+        height: 20px !important;
+    }
+    #hint:hover{
+        cursor: pointer;
+    }
+    #hint div,.description div{
+        margin-top: 20px;
+        border: 2px solid #333;
+        color: #333;
+        display: inline-block;
+        padding: 0 .75em;
+        font-size: 14px;
+        line-height: 26px;
+        border-radius: 3px;
+        -webkit-font-smoothing: antialiased;
+         font-weight: 600;
+    }
+    .description div a,.description div:focus a{
+    color: inherit;
+    text-decoration: none;
+        outline: none;
+    }
+    .grid , .description{
+        margin: 0;
+    }
+    .description{
+        margin-top: 20px;
+        text-align: center;
+        font-size: 16px;
+        color: black;
+        width: 95%;
+    }
+    .grid-structure{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    }
+    .wrap{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        height: 100vh;
+    }
+    #score{
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-top: 12px;
+        text-align: center;
+        font-size: 24px;
+    }
+    .score h5{
+        margin: 0;
+        color: black;
+        font-family: 'Josefin Sans', sans-serif;
+        
+    }
+    .score img{
+        width: 50px;
+        margin-top: 10px;
+    }
+    body{
+        background: #F2F3F4;
+    }
+    
+    .top-header{
+        position: fixed;
+        left: 0;
+        height: 50px;
+        width: 100%;
+        top: 0;
+        z-index: 999999999;
+        background: #fff;
+        box-shadow: 0 2px 8px 0 rgba(0,0,0,.1);
+        /* z-index: 100000; */
+    }
+    .navbar {
+    float: right;
+    height: 50px;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    border-bottom: 1px solid #ded;
+}
+.timereset{
+    float: right
+}
+.resetBtn img{
+    opacity: .6;
+    cursor: pointer;
+}
+.resetBtn {
+    padding: 5px 10px;
+    margin-top: 7px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.navbar .score {
+    float: left;
+    font-size: 25px;
+    padding-left:15px;
+    line-height: 50px;
+    color: rgb(65, 65, 241);
+    margin-right: 20px;
+}
+.navbar #time {
+    float: left;
+    font-size: 30px;
+    /* width: 100px; */
+    font-weight: 700;
+    font-family: Arial, AppleGothic, sans-serif;
+    line-height: 50px;
+    color: red;
+    opacity: .6;
+    margin-left: 10px;
+}
+.grid {
+    width: 95%;
+    max-width: 370px;
+    height: 370px;
+    overflow: hidden
+}
+
+.grid div {
+    float: left;
+    margin: .5%;
+    background-color: rgb(55, 114, 192);
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    line-height: 70px;
+    font-size: 30px;
+    font-family: Arial;
+    position: relative;
+    overflow: visible
+}
+
+.grid div span {
+    position: absolute;
+    left: -20%;
+    top: -20%;
+    width: 140%;
+    height: 140%;
+    z-index: 1
+}
+
+
+.grid.x2 div {
+    width: 49%;
+    height: 49%
+}
+
+.grid.x3 div {
+    width: 32.3%;
+    height: 32.3%
+}
+
+.grid.x4 div {
+    width: 24%;
+    height: 24%
+}
+
+.grid.x5 div {
+    width: 19%;
+    height: 19%
+}
+
+.grid.x8 div {
+    width: 11.5%;
+    height: 11.5%
+}
