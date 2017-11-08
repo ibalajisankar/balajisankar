@@ -94,5 +94,14 @@
     <footer>
             Made with  <i class="fa fa-heart" style="margin:0 3px;color:red"></i> by <a  onclick="handleOutboundLinkClicksfooter(event)" target="_blank">Balaji Sankar</a>
         </footer>
+        <script>
+            
+            $( ".resetBtn" ).click(function() {
+                if(!$('#board').hasClass('grid')){
+                    location.reload();
+                }
+                
+            });
+            </script>
 </body>
 </html>
