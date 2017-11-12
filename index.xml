@@ -21,6 +21,15 @@
     
     <item>
       <title></title>
+      <link>/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/contact/</guid>
+      <description>Balaji&#39;s Profile   Javascript Animation Tutorials Games Contact   --   Balaji Sankar  Front End Developer@nfnlabs  Follw me at --    	    {{ partial &#34;footer.html&#34; . }}  @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css); body { background: #e7e7e7; font-family: &#34;Raleway&#34;, &#34;Lato&#34;, sans-serif; position: relative; text-align: center; display: flex; align-items: center; justify-content: center; height: 100vh; /* min-width: 500px; */ } nav{ position: absolute; top: 0; font-size: 14px; line-height: 24px; color: white; width: 100%; z-index: 7; background: black; } .</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>/games/1to50/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
