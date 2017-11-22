@@ -1,5 +1,6 @@
  body{
         margin: 0;
+        position: relative;
     }
    footer{
        background: #202020;
@@ -201,3 +202,48 @@
     width: 11.5%;
     height: 11.5%
 }
+
+.youtube-promo{
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../img/mkv.jpg');
+    background-size: cover;
+    width:60%;height:150px;margin-top: 70px;margin: 70px auto;margin-bottom: 0;
+}
+.youtube-promo p{
+    display: inline-block;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+
+}
+#ad-link{
+    text-decoration: none;
+}
+.youtube-promo img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width:80px;
+}
+.youtube-subscription{
+    padding:2px 10px;
+    position: absolute;
+    border-radius: 2px;
+    bottom: 10px;
+    font-size: 8px;
+    right: 5px;
+    background: hsl(0, 100%, 50%);
+    color:white;
+}
+@media  (max-width: 767px) {
+    .youtube-promo{
+        width: 90%;
+    }
+    .youtube-promo p{
+        font-size: 16px;
+    }        
+}    

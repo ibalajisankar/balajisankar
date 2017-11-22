@@ -31,6 +31,15 @@
     </script>
 </head>
 <body>
+        
+    <a href="https://goo.gl/QetFrZ" id="ad-link">
+        <div class="youtube-promo" style="">
+            <p id="typedpro"></p>  
+            <img src="/img/foodfactory1.png">    
+            <div class="youtube-subscription">Subscribe</div>
+
+         </div>
+         </a>
     <div id="fb-root"></div>
 <div class="wrap">
     <div class="top-header">
@@ -50,6 +59,7 @@
         </div>
     </div>
         <div class="grid-structure">
+            
         <div class="grid x5" id="board">
             <div style="opacity: 1;"><span class="box" style="z-index:75"></span>25</div>
             <div style="opacity: 1;"><span class="box" style="z-index:98"></span>2</div>
@@ -94,8 +104,16 @@
     <footer>
             Made with  <i class="fa fa-heart" style="margin:0 3px;color:red"></i> by <a  onclick="handleOutboundLinkClicksfooter(event)" target="_blank">Balaji Sankar</a>
         </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.7/typed.min.js" type="text/javascript"></script>
+        
         <script>
-            
+            $("#typedpro").typed( {
+             strings: ["Are you a foodie?","Are you eating healthy food?","Which foods are high in vitamins?","What foods to eat to get minerals?","Tab to Check out healthy life","Subscribe our channel!! know more"],
+             typeSpeed: 100,
+             backDelay: 1000,
+              loop: true,
+                loopCount: false
+            });
             $( ".resetBtn" ).click(function() {
                 if(!$('#board').hasClass('grid')){
                     location.reload();
